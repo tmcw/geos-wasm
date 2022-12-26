@@ -60,3 +60,6 @@ Okay, so far seeing:
 ```
 CXXFLAGS="-fexceptions -DRENAME_INTERNAL_LIBTIFF_SYMBOLS -s ERROR_ON_UNDEFINED_SYMBOLS=0" CFLAGS=" -fexceptions -DRENAME_INTERNAL_LIBTIFF_SYMBOLS -s ERROR_ON_UNDEFINED_SYMBOLS=0" emconfigure ./configure --enable-shared=no --disable-inline
 ```
+
+- [spl.js](https://github.com/jvail/spl.js) looks _great_. Doesn't compile cleanly
+  for me - missing `libcharset.a`. But still, good to learn from.
